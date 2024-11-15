@@ -24,6 +24,7 @@ def on_draw():
 
 
 def animate(dt):
+    print(1/dt)
     global time
     time += dt
 
